@@ -257,14 +257,14 @@ G используется в астрономических единицах (A
 движется с этой новой постоянной скоростью до тех пор, пока не достигнет точки C. Повторяя этот процесс, планета следует 
 по пути A, B, C, D, E, F и так далее. Ньютон доказывает, что все треугольники SAB, SBC, SCD, SDE, SEF имеют одинаковую площадь
 
-![img.png](img.png)
+![img.png](https://github.com/Natalya00/Building-orbits-of-celestial-bodies/blob/main/graphics/img.png)
 
 Рассмотрим систему Солнце–Земля–Луна, где для упрощения мы пренебрегаем другими телами и воздействиями в Солнечной системе. 
 Положения этих трёх тел в момент времени t обозначим как q_i(t), где i = 0 соответствует Солнцу, i = 1 - Земле, i = 2 - Луне. 
 Массы тел обозначим как m_i. Также рассматриваем импульсы этих тел.  
 **_p_i(t) = m_i * g_i'(t)_**  (*)
 По 2 закону Ньютона:  
-![img_1.png](img_1.png) (**)
+![img_1.png](https://github.com/Natalya00/Building-orbits-of-celestial-bodies/blob/main/graphics/img_1.png) (**)
 
 Взяв (∗) и (∗∗) вместе и, выразив правые части через (∗∗), используя закон всемирного тяготения Ньютона, 
 получим систему из шести дифференциальных уравнений
@@ -274,15 +274,15 @@ G используется в астрономических единицах (A
 
 # 3. Результаты
 ### Модель Солнце-Земля-Луна  
-![img_2.png](img_2.png)
+![img_2.png](https://github.com/Natalya00/Building-orbits-of-celestial-bodies/blob/main/graphics/the%20Sun-Earth-Moon%20model.png)
 ## Метод Рунге-Кутты 4 порядка
 ### Расстояние между Солнцем и Луной(шаг 0.1)
-![img_3.png](img_3.png)
+![img_3.png](https://github.com/Natalya00/Building-orbits-of-celestial-bodies/blob/main/graphics/RK4_0.1.png)
 ### Расстояние между Солнцем и Луной(шаг 0.01)
-![img_4.png](img_4.png)
+![img_4.png](https://github.com/Natalya00/Building-orbits-of-celestial-bodies/blob/main/graphics/RK4_0.01.png)
 
 ## Метод Дормана-Принса
 ### Расстояние между Солнцем и Луной(шаг 1)
-![img_6.png](img_6.png)
+![img_6.png](https://github.com/Natalya00/Building-orbits-of-celestial-bodies/blob/main/graphics/DP_1.png)
 ### Расстояние между Солнцем и Луной(шаг 0.1)
-![img_5.png](img_5.png)
+![img_5.png](https://github.com/Natalya00/Building-orbits-of-celestial-bodies/blob/main/graphics/DP_0.1.png)
